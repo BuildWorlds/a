@@ -1,4 +1,4 @@
-# INFO OF HYFFEL GAMES
+# INFO OF HYFFE GAMES
 
 # OUR GAMES
 # ****** BuildWorlds
