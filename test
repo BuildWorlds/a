@@ -1,8 +1,0 @@
-<html>
-<head>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<h1> This is <span>Test</span> page. </h1>
-</body>
-</html>
