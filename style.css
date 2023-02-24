@@ -54,3 +54,20 @@ span:hover {
 hr {
     width: 75%;
 }
+
+.workers img {
+    width: 20%;
+    opacity: 100%;
+    border: 5px solid white;
+    border-radius: 100px 50px;
+}
+
+.topnavas a {
+    color: white;
+    text-decoration: none;
+}
+
+.topnavas a:hover {
+    color: darkorange;
+    text-decoration: none;
+}
