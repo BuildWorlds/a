@@ -1,50 +1,574 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title> Hyffe XYZ </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hyffe Games is game development company. Creators of BuildWorlds, Mega Forest and more. Join our awesome communities now">
+  <meta name="keywords" content="hyffe, hyyffel, games, 2d, 3d, game, free, dc">
+    <title>Hyffe Games</title>
 
-<!-- Meta -->
-<meta name="viewport" content="width=device-width" />
-<meta name="keywords" content="buildworlds, Mega Forest, hyffe, hyffe, hyffe games, hyffe company, H, HY, Hyffes, games, game company, 2022, 2023, ad, google"/>
-<meta name="description" content="Hyffe XYZ! The creator of games. Play or read about BuildWorlds, Mega Forest and more!"/>
-<meta charset="utf-8"/>
-<meta name="author" content="Hyffe Xyz"/>
-<meta property="og:title" content="Hyffe XYZ"/>
-<meta property="og:url" content="http://hyffe.xyz/">
-<link href="style.css" rel="stylesheet" />
-    </head>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="app/images/logo/Favicon.svg" type="image/x-icon">
+
+    <!-- fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <!-- css  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</head>
+
 <body>
+    <div id="preloadder">
 
-    <h1><span>Hyffe XYZ</span></h1>
-
-    <div class="topnavas">
-        <a href="#games">GAMES</a>
-        <a href="#workers">EMPLOYEES</a>
-        <a href="#">CONTACT</a>
-        <a href="#">SOCIAL MEDIA</a>
-        <a href="#">HOME</a>
     </div>
-        <hr id="games"/>
+    <header class="header" id="header">
+        <div class="logo">
+          </div>
+        <div class="menu-hamburger" id="toggle">
 
-        <div class="gameGallery">
-
-            <h3>Games</h3>
-
-            <a href="#"> <img src="https://cdn.discordapp.com/attachments/1077181333987672088/1078472963571077151/20230224_022535.png" alt="Mega Forest" /> </a>
-            <a href="#"> <img src="https://media.discordapp.net/attachments/1077181333987672088/1078472963814326312/20230224_022442.jpg?width=1178&height=662" alt="BuildWorlds" /> </a>
-            <br />
         </div>
+        <nav class="navbar" id="navbar">
+            <ul class="navbar-list" id="primary-navbar" data-visiable="false">
+                <li><a href="#banner" class="navbar-links">HOME</a></li>
+                <li><a href="#features" class="navbar-links">BETTER</a></li>
+                <li><a href="#about" class="navbar-links">ABOUT</a></li>
+                <li><a href="#contact" class="navbar-links">CONTACT</a></li>
+                <li><a href="#courses" class="btn btn-get-courses"><span>GAMES</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
 
-        <br />
-        <hr  id="workers"/>
-        <br />
+        <!-- --------------------------------
+            banner section 
+        -------------------------------- -->
+        <section class="banner column-4" id="banner">
+            <div class="text-area">
+                <div class="text-part">
+                    <h1>Play <span>free</span> games, made by <span>Hyffe Games</span></h1>.
+                    <p>Start playing good games, or start helping the project ones by joining our Discord server below!</p>
+                </div>
+                <div class="button-group">
+                    <a href="https://discord.com/invite/WtAhXSBJ3E" class="btn btn-start-course">Discord Server</a>
+                </div>
+            </div>
+            <div class="image-area">
+                <img src="app/images/causal.png" alt="">
+                <!-- <img src="app/images/ba1.png" alt=""> -->
+                <div class="circle"></div>
+               
+               
+                <a href="#features" class="info info-chat">
+                    <ion-icon name="chatbox-ellipses-outline"></ion-icon><span>What we do better?</span>
+                </a>
+            </div>
 
-        <div class="workers">
-            <h3>Employees</h3>
-            <div class="vipe">
-                <img src="https://cdn.discordapp.com/attachments/1077181333987672088/1078482388683849758/20230224_030346.jpg" alt="Vili Rosendahl" />
-                <h2>Vili Rosendahl</h2>
-                <p>Project Manager, CEO, Graphic Designer</p>
+        </section>
+        <!-- -------------------------------- -->
+        <!-- features section  -->
+        <!-- -------------------------------- -->
+
+        <section class="features" id="features">
+            <div class="custom-shape-divider-bottom">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="main-container column-2">
+                <div class="text-part">
+                    <h1>What's better on our company?</h1>
+                    <p>Many of you may be wondering for real, what's so much better in our company? Well.. Here's a list for it.</p>
+                    <div class="feature-card column-2">
+                        <div class="card card1">
+                            <ion-icon name="person-sharp"></ion-icon>
+                            <h3>Employee Team</h3>
+                            <p>We work with love and nobody does anything alone! Everybody gets help, nobody's perfect.
+                            </p>
+                        </div>
+                        <div class="card card2">
+                            <ion-icon name="timer-sharp"></ion-icon>
+                            <h3>Lifetime Support</h3>
+                            <p>We guaranteee lifetime help. If you choose us, we will give you support as long as you need, no matter what! Ofcourse, only things involved with our company!
+                            </p>
+                        </div>
+                        <div class="card card3">
+                            <ion-icon name="bookmark-sharp"></ion-icon>
+                            <h3>Professional Certification</h3>
+                            <p>When you complete the class or course, you will get a certificate that is recognized in
+                                the world.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-part">
+                    <div class="overlay-text">
+                        <h1>
+                           HYFFE
+                        </h1>
+                    </div>
+                    <div class="overlay-color"></div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------------- -->
+        <!-- courses  -->
+        <!-- -------------------------------- -->
+
+        <section id="courses" class="courses">
+            <div class="text-part">
+                <h1>Our Projects & Games </h1>
+                <div class="overlay-text">
+                    <h2>WORK</h2>
+                </div>
+                <hr class="line">
+            </div>
+            <div class="main-container">
+                <!-- card 1 -->
+                <div class="card card1">
+                    <div class="card_image">
+                        <img src="https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=906&q=80"
+                            alt="Software Development">
+                    </div>
+                    <div class="card_info">
+                        <div class="card_info_rating">
+                            <div class="rating_box">
+                                <ion-icon name="star"></ion-icon>
+                                <span>0.0</span>
+                            </div>
+                            <div class="rating_text">
+                                <p>0 Rating</p>
+                            </div>
+                        </div>
+                        <div class="card_info_text">
+                            <a href="#">BuildWorlds: 2D MMORPG SANDBOX</a>
+                        </div>
+                        <div class="card_info_status">
+                            <div class="info">
+                                <ion-icon name="play-circle"></ion-icon>
+                                <p>No breaks</p>
+                            </div>
+                            <div class="info">
+                                <ion-icon name="time"></ion-icon>
+                                <p>1.1.2024</p>
+                            </div>
+                        </div>
+                        <div class="card_info_price">
+                            <div class="price">
+                              <h1>FREE</h1>
+                            </div>
+                            <button class="btn btn-learnmore">
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card card2">
+                    <div class="card_image">
+                        <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+                            alt="UI/UX Design Pattern For Applications ">
+                    </div>
+                    <div class="card_info">
+                        <div class="card_info_rating">
+                            <div class="rating_box">
+                                <ion-icon name="star"></ion-icon>
+                                <span>0.0</span>
+                            </div>
+                            <div class="rating_text">
+                                <p>0 Rating</p>
+                            </div>
+                        </div>
+                        <div class="card_info_text">
+                            <a href="#">Mega Forest</a>
+                        </div>
+                        <div class="card_info_status">
+                            <div class="info">
+                                <ion-icon name="play-circle"></ion-icon>
+                                <p>Maintenance</p>
+                            </div>
+                            <div class="info">
+                                <ion-icon name="time"></ion-icon>
+                                <p>---</p>
+                            </div>
+                        </div>
+                        <div class="card_info_price">
+                            <div class="price">
+                                <h1>FREE</h1>
+                                
+                            </div>
+                            <button class="btn btn-learnmore">
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+             
+                   
+
+        <!-- -------------------------------- -->
+        <!-- expert section  -->
+        <!-- -------------------------------- -->
+
+        <section id="expert" class="expert">
+            <div class="circle blur-neon expert_circle"></div>
+            <div class="expert_text">
+                <h1>Meet With Our Professional Experts</h1>
+            </div>
+            <div class="expert_main">
+                <!-- card-1  -->
+                <div class="card card-1">
+                    <div class="card_image">
+                        <div class="overlay-gradient"></div>
+                        <img src="https://cdn.discordapp.com/attachments/1078607903172350063/1078621471166955551/20230224_121618.jpg"
+                            alt="Vili Rosendahl">
+                    </div>
+                    <div class="card_name">
+                        <h1>Vili Rosendahl</h1>
+                    </div>
+                    <div class="card_job">
+                        <p>Chief Executive Officer</p>
+                    </div>
+                    <div class="card_social">
+                        <a href="#">
+                            <ion-icon name="logo-discord"></ion-icon>
+                        </a>
+                        <a href="#">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                        <a href="#">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+                <!-- x 
+                <div class="card card-2">
+                    <div class="card_image">
+                        <div class="overlay-gradient"></div>
+                        <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                            alt="Julian Wan">
+                    </div>
+                    <div class="card_name">
+                        <h1>Julian Wan</h1>
+                    </div>
+                    <div class="card_job">
+                        <p>Ethical Hacker</p>
+                    </div>
+                    <div class="card_social">
+                        <a href="#">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                        <a href="#">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        <a href="#">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="card card-3">
+                    <div class="card_image">
+                        <div class="overlay-gradient"></div>
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            alt="Romina Farías">
+                    </div>
+                    <div class="card_name">
+                        <h1>Romina Farías</h1>
+                    </div>
+                    <div class="card_job">
+                        <p>UI/UX Developer</p>
+                    </div>
+                    <div class="card_social">
+                        <a href="#">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                        <a href="#">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        <a href="#">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="lowerpart">
+
+                <button class="btn btn-viewall">
+                    View All
+                </button>
+            </div>
+        </section>
+x -->
+        <!-- -------------------------------- -->
+        <!-- about section  -->
+        <!-- -------------------------------- -->
+<br>
+          <br>
+        <section class="about" id="about">
+            <div class="about_content">
+                <div class="text">
+                    <h2>More About Us</h1>
+                        <p>
+                          Hyffe Games is an Finnish game development, publishing and hosting company. We create games for gamers to test and play. Tell what you think about it.
+                        </p>
+                        <h1>wOw!</h1>
+                </div>
+                <div class="image">
+
+                    <img src="https://images.unsplash.com/photo-1612296727716-d6c69d2a2cbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+                        alt="">
+                </div>
+            </div>
+            <div class="about_stats">
+                <div class="card card-1">
+                    <h1>2</h1>
+                    <p>Games</p>
+                </div>
+                <div class="card card-1">
+                    <h1>0</h1>
+                    <p>Games Working</p>
+                </div>
+                <div class="card card-1">
+                    <h1>$46.64 USD</h1>
+                    <p>Money Used</p>
+                </div>
+                <div class="card card-1">
+                    <h1>$00.00 USD</h1>
+                    <p>Profit Now</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- -------------------------------- -->
+        <!-- feedback -->
+        <!-- -------------------------------- -->
+        <section class="faq" id="faq">
+            <div class="faq_text">
+                <h1>FAQ</h1>
+                <hr class="line">
+            </div>
+            <div class="faq_main">
+                <div class="accordian">
+                    <div class="accordian_item">
+                        <a href="#q1" class="link">
+                            <p>Who are allowed to play our games?</p>
+                            <ion-icon class="down" name="caret-down-outline"></ion-icon>
+                            <ion-icon class="up" name="caret-up-outline"></ion-icon>
+                        </a>
+                        <div class="answer">
+                            <p>
+                                Hyffe Games have started as an game company for everyone, and we still are that. Everybody with good skills to read and follow rules, are allowed to play our games!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordian_item">
+                        <a href="#q2" class="link">
+                            <p>Are there language requirements?</p>
+                            <ion-icon class="down" name="caret-down-outline"></ion-icon>
+                            <ion-icon class="up" name="caret-up-outline"></ion-icon>
+                        </a>
+                        <div class="answer">
+                            <p>
+                             Basically yes, basically no. You are allowed to speak any language within rules. But in Discord server, you need to speak English.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordian_item">
+                        <a href="#q3" class="link">
+                            <p>How much am I required to pay for playing?</p>
+                            <ion-icon class="down" name="caret-down-outline"></ion-icon>
+                            <ion-icon class="up" name="caret-up-outline"></ion-icon>
+                        </a>
+                        <div class="answer">
+                            <p>
+                              None! Our games are 95% free games. 5% comes from IAP, which stands for In-App-Purchases.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordian_item">
+                        <a href="#q4" class="link">
+                            <p>My payment did not go through. What do I do?</p>
+                            <ion-icon class="down" name="caret-down-outline"></ion-icon>
+                            <ion-icon class="up" name="caret-up-outline"></ion-icon>
+                        </a>
+                        <div class="answer">
+                            <p>
+             If your payment didn't go trough, you can be in touch to us straight up in email! We have payments only in BuildWorlds.. 
+                              The email then is <span>support@buildworldsgame.com</span>
+                            </p>
+                        </div>
+                    </div>
+               
+            </div>
+        </section>
+        <!-- -------------------------------- -->
+        <!-- contact -->
+        <!-- -------------------------------- -->
+        <section class="contact" id="contact">
+            <div class="contact_text">
+                <h1>Contact</h1>
+            </div>
+            <div class="contact_main">
+                <div class="input">
+                    <form action="contact">
+                        <div class="name">
+                            <label for="username">Name</label>
+                            <input type="text" placeholder="John Marine" id="username">
+                        </div>
+                        <div class="email">
+                            <label for="useremail">Email</label>
+                            <input type="email" placeholder="John@gmail.com" id="useremail">
+                        </div>
+                        <div class="textarea">
+                            <label for="usertext">Message</label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="submit">
+                            <button class="button-86">Send</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="details">
+                    <div class="details_text">
+                        <h1>Get In Touch</h1>
+                        <p>After your rquest of touch. We'll reply back as soon as possible. Most usually in 24 - 48 hours.</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <p>+358  46 5262382</p>
+                            <ion-icon name="call"></ion-icon>
+                        </li>
+                        <li>
+                            <p>support@buildworldsgame.com</p>
+                            <ion-icon name="mail"></ion-icon>
+                        </li>
+                        <li>
+                            <p>29 Karankatu, Hyvinkää, Finland, 05820</p>
+                            <ion-icon name="location"></ion-icon>
+                        </li>
+                    </ul>
+                    <div class="social">
+                        <div class="box">
+                            <a href="#">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a href="#">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a href="#">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a href="#">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- -------------------------------- -->
+        <!-- subscribe -->
+        <div class="subscribe">
+            <div class="text">
+                <h1>Subscribe</h1>
+                <p>To Our Email Newsletter And Expert Blog</p>
+            </div>
+            <div class="input">
+                <input type="email" placeholder="Emili@gmail.com" name="subscribe_email" class="input_email">
+                <button type="submit" class="btn">Submit</button>
             </div>
         </div>
+
+    </main>
+    <footer class="footer" id="footer">
+        <div class="footer_main">
+            <div class="logo">               <p>Get industry accredited certification and advance through our high-quality online courses.</p>
+            </div>
+            <div class="company">
+                <h1>
+                    Company
+                </h1>
+                <ul>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="https://forms.gle/5t919aTgcLECdFDL8">Hiring</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms of Service</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="resources">
+                <h1>
+                    Resources
+                </h1>
+                <ul>
+                    <li>
+                        <a href="#">Payment</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Support</a>
+                    </li>
+                    <li>
+                        <a href="#">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="quick">
+                <h1>
+                    Quick
+                </h1>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#faq">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <h1>
+           2023 © Hyffe Games - All Rights Reserved
+            </h1>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
 </body>
-</html>
+
+  </html>
