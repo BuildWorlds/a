@@ -1,4 +1,56 @@
 * {
   text-align: center;
-  cursor: default;
+  cursor:  default;
+  scroll-behavior: smooth;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: Chiller;
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+span {
+    color: currentColor;
+}
+
+span:hover {
+    color: darkorange;
+}
+
+.gameGallery {
+    display: inline-block;
+    list-style-image: none;
+    list-style: none;
+}
+
+.gameGallery a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+.gameGallery a:hover {
+    color: darkorange;
+}
+
+.gameGallery a img {
+    width: 20%;
+    opacity: 25%;
+    border: 5px double white;
+    border-radius: 100px 50px;
+}
+
+    .gameGallery a img:hover {
+        width: 20%;
+        opacity: 100%;
+        border: 5px solid white;
+    }
+
+hr {
+    width: 75%;
 }
